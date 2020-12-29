@@ -11,7 +11,6 @@ export default class Child extends React.Component {
 
   componentDidMount() {
     console.log('componentDidMount')
-
   }
 
   // 父组件向子组件传输属性的时候，会hook到这里函数,这是新的api
