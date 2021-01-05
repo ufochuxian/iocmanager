@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Life from './pages/demo/Life';
+import PromiseTs from "./pages/demo/PromiseTs";
+import Admin from './admin'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Life />
+    <PromiseTs />
   </React.StrictMode>,
   document.getElementById('root')
 );
