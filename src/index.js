@@ -4,11 +4,12 @@ import './index.css';
 import Life from './pages/demo/Life';
 import PromiseTs from "./pages/demo/PromiseTs";
 import Admin from './admin'
+import ReactTest from "./components/ReactTest"
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <PromiseTs />
+    <ReactTest />
   </React.StrictMode>,
   document.getElementById('root')
 );
