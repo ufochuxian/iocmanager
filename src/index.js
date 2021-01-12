@@ -8,10 +8,11 @@ import ReactTest from "./components/ReactTest"
 import reportWebVitals from './reportWebVitals';
 import {HelloWorld} from "./study/HelloWorld";
 import {JsxExpression} from "./study/JsxExpression";
+import {JsxExpression2} from "./study/JsxExpression2";
 
 ReactDOM.render(
   <React.StrictMode>
-    <JsxExpression />
+    <JsxExpression2 />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -5,7 +5,7 @@ export default class extends React.Component {
   randomValue() {
     console.log("randomValue")
     var value = Math.random() * 20
-     return new Promise((resolve, reject) => {
+    return new Promise((resolve, reject) => {
       if (value > 8) {
         console.log("resolve:" + value)
         resolve()
