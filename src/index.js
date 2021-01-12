@@ -6,10 +6,12 @@ import PromiseTs from "./pages/demo/PromiseTs";
 import Admin from './admin'
 import ReactTest from "./components/ReactTest"
 import reportWebVitals from './reportWebVitals';
+import {HelloWorld} from "./study/HelloWorld";
+import {JsxExpression} from "./study/JsxExpression";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ReactTest />
+    <JsxExpression />
   </React.StrictMode>,
   document.getElementById('root')
 );
